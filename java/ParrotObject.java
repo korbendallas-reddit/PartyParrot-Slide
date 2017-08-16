@@ -238,6 +238,20 @@ public class ParrotObject {
                         BitmapFactory.decodeResource(context.getResources(), R.drawable.angel_10)
                 };
                 break;
+            case "Science":
+                ppFramesTemp = new Bitmap[] {
+                        BitmapFactory.decodeResource(context.getResources(), R.drawable.science_01),
+                        BitmapFactory.decodeResource(context.getResources(), R.drawable.science_02),
+                        BitmapFactory.decodeResource(context.getResources(), R.drawable.science_03),
+                        BitmapFactory.decodeResource(context.getResources(), R.drawable.science_04),
+                        BitmapFactory.decodeResource(context.getResources(), R.drawable.science_05),
+                        BitmapFactory.decodeResource(context.getResources(), R.drawable.science_06),
+                        BitmapFactory.decodeResource(context.getResources(), R.drawable.science_07),
+                        BitmapFactory.decodeResource(context.getResources(), R.drawable.science_08),
+                        BitmapFactory.decodeResource(context.getResources(), R.drawable.science_09),
+                        BitmapFactory.decodeResource(context.getResources(), R.drawable.science_10)
+                };
+                break;
         }
 
         // Scale the frame
